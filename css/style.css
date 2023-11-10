@@ -1,0 +1,109 @@
+.heads{
+    background-image:url(../IMAGE/bg.jpg);
+    height: 90px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 20px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    border: 5px solid black;
+}
+
+ul{
+    height: 80px;
+    background-color: rgb(219, 62, 198);
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+li{
+    float: left;
+}
+li a{
+    min-height: 90px;
+    text-decoration: none;
+    font-size: 17px;
+    padding:20px ;
+    color: rgb(250, 245, 245);
+    position: relative;
+    top: 30px;
+    left: 10px;
+    font-weight: bold;
+}
+li a:hover{
+    background-color: pink;
+}
+li a:active{
+    background-color: white;
+}
+li a.active{
+
+    color: rgb(255, 230, 255);
+    border-radius: 1px;
+}
+.det{
+    min-height: 900px;
+    background-color: pink;
+    padding: 20px;
+
+}
+.fot{
+    min-height: 5px;
+    background-color: rgb(238, 159, 95);
+
+}
+div .prods{
+    border-style: solid;
+    border-width: 1px;
+    width: 250px;
+    min-height: 250px;
+    border-color: pink;
+    position: relative;
+    top: -10px;
+    left: 80px;
+    margin: 10px 20px;
+    display: inline-block;
+
+}
+div .prods img{
+    width: 250px;
+    height: 250px;
+}
+div .prods:hover{
+    border-color: black;
+}
+div p{
+    text-align: center;
+    width: 80%;
+    min-height: 700px;
+    position: absolute;
+    top: 700px;
+    left: 70px;
+    display: block;
+    padding:20px;
+    font-size: large;
+}
+
+.a{
+    padding: 2px 0px;
+    text-align: center;
+    width: 280px;
+    margin: 0px;
+
+}
+.b{
+    padding: 10px;
+    position: relative;
+    left: 50px;
+
+}
+.z{
+    display: inline-block;
+}
+@media(max-height:768){
+    div .prods{
+        display: block;
+    }
+
+}
